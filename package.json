@@ -1,0 +1,16 @@
+{
+  "name": "nexsecure",
+  "version": "1.0.0",
+  "description": "NexSecure - Cybersecurity Company Website",
+  "scripts": {
+    "build": "tailwindcss -i ./styles/main.css -o ./styles/output.css --minify",
+    "watch": "tailwindcss -i ./styles/main.css -o ./styles/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  }
+} 
